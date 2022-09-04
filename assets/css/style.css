@@ -32,6 +32,13 @@ Version: 1.0
     --header-box-shadow: 0px 0px 14px 0px rgba(77, 82, 94, 0.15);
 }
 
+.ancla:before {
+    display: block;
+    content: " ";
+    margin-top: -120px;
+    height: 200px;
+    visibility: hidden;
+}
 /* === CSS Table Of Content
 
 1. Content
